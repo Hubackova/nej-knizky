@@ -1,16 +1,18 @@
 module.exports = {
   siteMetadata: {
-    title: "Nej knizky",
+    title: `Nejlepší knížky`,
+    description: `Nejlepší knížky podle žánru či tématu`,
+    author: "LenkaH",
   },
   plugins: [
     "gatsby-plugin-sass",
     "gatsby-plugin-image",
-    {
+    /* {
       resolve: "gatsby-plugin-google-analytics",
       options: {
         trackingId: "",
       },
-    },
+    }, */
     "gatsby-plugin-react-helmet",
     "gatsby-plugin-sitemap",
     {
@@ -21,6 +23,14 @@ module.exports = {
     },
     "gatsby-plugin-sharp",
     "gatsby-transformer-sharp",
+    {
+      resolve: "gatsby-plugin-react-svg",
+      options: {
+        rule: {
+          include: /\.inline\.svg$/,
+        },
+      },
+    },
     {
       resolve: "gatsby-source-filesystem",
       options: {
