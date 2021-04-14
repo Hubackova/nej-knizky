@@ -8,7 +8,7 @@ const Header = ({ siteTitle }) => (
       {/*    <div>O co jde?</div> | <div>Vyber si "kategorii"</div> */}
     </div>
     <div className="header-title">
-      <h1>{siteTitle}</h1>
+      <h1>{siteTitle} (scifi)</h1>
       <div>...všech dob, dle odborného i "lidového" hodnocení</div>
     </div>
   </div>

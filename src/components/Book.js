@@ -3,6 +3,7 @@ import { StaticImage } from "gatsby-plugin-image";
 import IconBook from "../images/icon-book.inline.svg";
 import IconEBook from "../images/icon-e-book.inline.svg";
 import IconAudioBook from "../images/icon-audio-book.inline.svg";
+import Award from "../images/award.inline.svg";
 import "./Book.scss";
 
 const Book = ({ book }) => {
@@ -22,7 +23,10 @@ const Book = ({ book }) => {
           {book.awards && (
             <div className="awards">
               {book.awards?.map((award) => (
-                <li>{award}</li>
+                <div>
+                  <Award className="award" />
+                  {award}
+                </div>
               ))}
             </div>
           )}

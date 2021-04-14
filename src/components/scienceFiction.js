@@ -29,7 +29,7 @@ const ScienceFiction = () => {
       ],
       dislikes: [
         "pro někoho příliš dlouhé monology, úvahy a popisy a málo děje",
-        "není to lehké čtení (což může být i plus) - připravte se na spoustu beznaděje",
+        "není to lehké čtení (což může být i plus)",
       ],
       more:
         "Nově (2021) vychází také v podobě grafického románu (ilustrace Matyáš Namai)",
@@ -113,7 +113,24 @@ const ScienceFiction = () => {
           objectFit="contain"
         />
       ),
-      description: "",
+      description:
+        "„Bible kyberpunku“, kniha která dala zrod novému žánru. Odehrává se v nedaleké budoucnosti, kde vládnou technologie, kybernetické implantáty a kriminalita. Bývalý kyberprostorový hacker Case se snaží obnovit svůj nervový systém, aby byl opět schopen připojit se do kyberprostoru zvaného „Matrix“. Potlouká se špinavými ulicemi města Chiba a postupně se propadá níž a níž. Až dostane pracovní nabídku, která se neodmítá. Pro Neuromancera je specifická i forma vyprávění, jazyk plný slangu a futuristických termínů. Pro někoho geniální, pro někoho těžce stravitelný.",
+      awards: [
+        "Cena Nebula za nejlepší román (1985)",
+        "Cena Hugo za nejlepší román (1985)",
+        "Cena Philip K. Dicka (1984)",
+      ],
+      likes: [
+        "velmi inovavivní a originální",
+        "nadčasová, poměrně přesná vize budoucnosti",
+        "pokud máte rádi Matrix a DeusEx, je to nutnost",
+      ],
+      dislikes: [
+        "chaotické, těžce stravitelné",
+        "příliš abstraktní",
+        "nevyrovnané dávkování děje",
+        "specifický jazyk, někomu nesedí ani jeden z českých překladů (lépe hodnocený je Rauvolf)",
+      ],
     },
 
     {
@@ -147,13 +164,22 @@ const ScienceFiction = () => {
           objectFit="contain"
         />
       ),
-      description: "",
+      description:
+        "Dystopická vize „dokonalé“ společnosti, kde je potlačena indiviualita jedince a kde jsou lidé geneticky šlechtěni k předem určenému postavení. Civilizace nezná bolest a utrpení, ale ani svobodu a lásku. Filozofické pojednání o štěstí.",
+      likes: [
+        "děsivě brilantní vize budoucnosti vedoucí k zamyšlení",
+        "velké, akruální, filosoficky podané myšlenky",
+      ],
+      dislikes: [
+        "děj méně dynamický, může se zdát spíše jako soubor jednotlivých epizod",
+        "plošší postavy",
+      ],
     },
 
     {
       name: "Nadace",
       englishName: "Foundation",
-      author: "Nadace",
+      author: "Isaac Asimov",
       year: 1951,
       img: (
         <StaticImage
@@ -163,7 +189,18 @@ const ScienceFiction = () => {
           objectFit="contain"
         />
       ),
-      description: "",
+      description:
+        "Součást knižní série Nadace odehrávající se v daleké budoucnosti, kdy lidé osídlí celou galaxii. Budoucnost společnosti je předpovídáná matematickou metodou.",
+      likes: [
+        "nadčasovost, aktuálnost",
+        "pro fanoušky filozofické, politicko-společenské scifi",
+      ],
+      dislikes: [
+        "pro někoho příliš agresivní střídání časových rovin",
+        "více politologicko filosofické než scifi",
+        "málo akční, pro někoho nudné",
+      ],
+      awards: ["speciální cena Hugo - Best All-Time Series (1966)"],
     },
 
     {
