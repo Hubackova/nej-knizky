@@ -18,7 +18,7 @@ const ScienceFiction = () => {
         />
       ),
       description:
-        "Dystopický román odehrávající se v totalitním byrokratickém světě, kde si vládnoucí Strana udržuje moc pomocí dezinformací, manipulací a terroru. Hlavní hrdina, ničím výjimečný Winston pracující na Ministerstvu pravdy, se rozhodne spáchat ideozločin -  začne si psát deník. Místy až děsivě reálná vize budoucnosti.",
+        "Dystopický román odehrávající se v totalitním byrokratickém světě, kde si vládnoucí Strana udržuje moc pomocí dezinformací, manipulací a terroru. Hlavní hrdina, ničím výjimečný Winston, pracující na Ministerstvu pravdy, se rozhodne spáchat ideozločin -  začne si psát deník.",
       awards: [
         "Cena Retro Hugo za nejlepší novelu",
         "Prometheus Award (síň slávy)",
@@ -29,7 +29,7 @@ const ScienceFiction = () => {
       ],
       dislikes: [
         "pro někoho příliš dlouhé monology, úvahy a popisy a málo děje",
-        "není to lehké čtení (což může být i plus)",
+        "není to lehké čtení (což nemusí být nutně mínus)",
       ],
       more:
         "Nově (2021) vychází také v podobě grafického románu (ilustrace Matyáš Namai)",
@@ -58,7 +58,7 @@ const ScienceFiction = () => {
       likes: [
         "promyšlený svět",
         "psychologie postav",
-        "propracovaná politika plná intrik, ekologie, filosofie, náboženské odkazy",
+        "politika plná intrik, ekologie, filosofie, náboženské odkazy",
       ],
       dislikes: [
         "může chvíli trvat se začíst, pro někoho příliš rozvleklé až nudné",
@@ -87,12 +87,18 @@ const ScienceFiction = () => {
         />
       ),
       description:
-        "První díl pentalogie označované jako trilogie v pěti dílech. Humorně pojatá scifi série, kdy Země zavazí v cestě intergalaktické dálnici a musí tedy být zničena. Naživu zůstává jeden úplně obyčejný Angličan, který se ocitá ve vesmíru plném náhodností a absurdit.",
+        "První díl pentalogie označované jako trilogie v pěti dílech. Humorně pojatá scifi série, kdy Země zavazí v cestě intergalaktické dálnici a musí být tedy zničena. Naživu zůstává jeden úplně obyčejný Angličan, který se ocitá ve vesmíru plném náhodností a absurdit.",
+      awards: [
+        "1. místo v žebříčku best-sellerů Sunday Times (1979)",
+        "Golden Pan - přes milion prodaných kopií (1984)",
+        "24. místo v žebříčku '100 největších knih století' (Waterstone's Books/Channel Four, 1996)",
+        "4. místo v žebříčku BBC 'Big Read' - nejmilovanější britské knihy",
+      ],
       likes: [
         "pěkně namluvená audiokniha Voujtou Dykem",
         "specifický absurdní humor (v Monty Python stylu)",
         "neuvěřitelná fantazie autora",
-        "kultovní hlášky (nepropadej panice!)",
+        "kultovní hlášky (Nepropadej panice!)",
         "odpověď na otázku vesmíru, života a tak vůbec",
       ],
       dislikes: ["humor nemusí sednout každému", "místy chotické"],
@@ -114,7 +120,7 @@ const ScienceFiction = () => {
         />
       ),
       description:
-        "„Bible kyberpunku“, kniha která dala zrod novému žánru. Odehrává se v nedaleké budoucnosti, kde vládnou technologie, kybernetické implantáty a kriminalita. Bývalý kyberprostorový hacker Case se snaží obnovit svůj nervový systém, aby byl opět schopen připojit se do kyberprostoru zvaného „Matrix“. Potlouká se špinavými ulicemi města Chiba a postupně se propadá níž a níž. Až dostane pracovní nabídku, která se neodmítá. Pro Neuromancera je specifická i forma vyprávění, jazyk plný slangu a futuristických termínů. Pro někoho geniální, pro někoho těžce stravitelný.",
+        "„Bible kyberpunku“, kniha která dala zrod novému žánru. Odehrává se v nedaleké budoucnosti, kde vládnou technologie, kybernetické implantáty a kriminalita. Bývalý kyberprostorový hacker Case se snaží obnovit svůj nervový systém, aby byl opět schopen připojit se do kyberprostoru zvaného „Matrix“. Potlouká se špinavými ulicemi města Chiba a postupně se propadá níž a níž. Až dostane pracovní nabídku, která se neodmítá. Pro Neuromancera je značn specifická i forma vyprávění, jazyk plný slangu a futuristických termínů. Pro někoho geniální, pro někoho těžce stravitelné dílo.",
       awards: [
         "Cena Nebula za nejlepší román (1985)",
         "Cena Hugo za nejlepší román (1985)",
@@ -149,6 +155,13 @@ const ScienceFiction = () => {
       description:
         "Antiutopická vize přetechnizované společnosti, kde vládne kultura masových médií. Zájem o literaturu postupně upadá a knihy jsou posléze oficiálně zakázány a ničeny hasiči vybavenými plamenomety...",
       awards: ["Cena Hugo za nejlepší román (1954)", "Prometheus Award (1984)"],
+      likes: [
+        "Bradbury až děsivě přesně předpověděl závislost společnosti na multimédiích",
+        "odkazy na jiná díla (Platónovo podobenství o jeskyni)",
+      ],
+      dislikes: [
+        "příliš krátké, ovšem s natahovaným koncem, který se nelíbí každému",
+      ],
     },
 
     {
@@ -165,11 +178,8 @@ const ScienceFiction = () => {
         />
       ),
       description:
-        "Dystopická vize „dokonalé“ společnosti, kde je potlačena indiviualita jedince a kde jsou lidé geneticky šlechtěni k předem určenému postavení. Civilizace nezná bolest a utrpení, ale ani svobodu a lásku. Filozofické pojednání o štěstí.",
-      likes: [
-        "děsivě brilantní vize budoucnosti vedoucí k zamyšlení",
-        "velké, akruální, filosoficky podané myšlenky",
-      ],
+        "Dystopická vize „dokonalé“ společnosti, kde je potlačena indiviualita jedince a lidé jsou geneticky šlechtěni k předem určenému postavení. Civilizace nezná bolest a utrpení, ale ani svobodu a lásku. Filozofické pojednání o štěstí.",
+      likes: ["reálná vize budoucnosti", "velké, filosoficky podané myšlenky"],
       dislikes: [
         "děj méně dynamický, může se zdát spíše jako soubor jednotlivých epizod",
         "plošší postavy",
@@ -190,7 +200,7 @@ const ScienceFiction = () => {
         />
       ),
       description:
-        "Součást knižní série Nadace odehrávající se v daleké budoucnosti, kdy lidé osídlí celou galaxii. Budoucnost společnosti je předpovídáná matematickou metodou.",
+        "Součást knižní série Nadace odehrávající se v daleké budoucnosti, kdy lidé osídlí celou galaxii. Matematickou metodou je předpovězno, že Galakticou říši čeká 30 tisíc let úpadku. Hari Seldon, autor oné metody tak zakladá Nadaci, jejimž cílem má být vytvoření encyklopedie, díky které bude doba úpadku zkrácena. Kniha je rozdělena do pěti částí, kdy každá pojednává o úseku historie nově založeného světa.",
       likes: [
         "nadčasovost, aktuálnost",
         "pro fanoušky filozofické, politicko-společenské scifi",
@@ -216,7 +226,20 @@ const ScienceFiction = () => {
           objectFit="contain"
         />
       ),
-      description: "",
+      description:
+        "Hlavní hrdina Mark se ocitá sám na Marsu a snaží se přežít. Spojení se Zemí se nedaří a tak je odkázán sám na sebe, na svou vynalézavost a důvtip.",
+      awards: [
+        "cena Ignotus za nejlepší zahraniční román (2015)",
+        "Hugo Awards - Andy Weir získal za Marťana cenu John W. Campbella - Nejlepší začínající spisovatel (2016) ",
+      ],
+      likes: [
+        "technické, chemické a fyzikální detaily jsou popsány tak, že jim rozumí každý",
+        "sarkastický humor a optimismus v bezvýchodné situaci",
+      ],
+      dislikes: [
+        "pomalejší začátek",
+        "pro ne přilíš vědecky zaměřené čtenáře mohou být technické detaily nudné",
+      ],
     },
 
     {
@@ -233,10 +256,15 @@ const ScienceFiction = () => {
         />
       ),
       description:
-        "Úvodní díl rozsáhlé Cardovy knižní série Enderova hra. Scifi odehrávající se v blíže neurčené budoucnosti Země, kdy lidstvo ohrožuje mimozemský insektoidní druh. Děti, včetně hlavního protagonisty Endera jsou od útlého věku cvičeni prostřednictvím stále obtížnějších her, v kterých se prokáže Enderova vojenská genialita.",
+        "Úvodní díl rozsáhlé Cardovy knižní série Enderova hra. Scifi odehrávající se v blíže neurčené budoucnosti planety Země, kdy lidstvo ohrožuje mimozemský insektoidní druh. Děti, včetně hlavního protagonisty Endera jsou od útlého věku cvičeni prostřednictvím stále obtížnějších her. Ender je po všech stránkách výjimečně nadané dítě do kterého jsou vloženy naděje, že bude nejlepším vojevůdcem a stratégem v lidské historii",
       awards: [
         "Cena Nebula za nejlepší novelu (1985)",
         "Cena Hugo za nejlepší román (1986)",
+      ],
+      likes: ["filosofický přesah", "vypointovaný závěr "],
+      dislikes: [
+        "místy dlouhé nezáživné pasáže popisující výcvik",
+        "děti se až nepřirozeně chovají příliš dospěle",
       ],
     },
 
@@ -253,7 +281,22 @@ const ScienceFiction = () => {
           objectFit="contain"
         />
       ),
-      description: "",
+      description:
+        "Avantgardní, částečně autobiografický vědeckofantastický protiválečný román. Hlavním hrdinou je Americký voják Billy, který je zajat Němci, spolu s pornoherečkou vystavován mimozemšťany v jejich zoo, vězněn v Drážďanech... děj nechronologicky skáče v prostoru a čase.",
+      likes: [
+        "velmi originální zachycení absurdity války",
+        "vážné i humorné, absurdní i děsivé",
+        "kultovní 'Tak už to chodí'",
+      ],
+      dislikes: [
+        "pro někoho příliš zmatené",
+        "zbytečně dlouhý úvod vysvětlující proč autor knihu napsal",
+        "neustále opakování 'Tak už to chodí'",
+      ],
+      awards: [
+        "Nominace na nejlepší novelu v cenách Hugo i Nebula (1970), ovšem poražen knihou 'Levá ruka tmy'",
+        "zařazena do žebříčku 100 nejlepších anglicky psaných novel od roku 1923 dle časopisu Time",
+      ],
     },
     /*     {
       name: "Frankenstein",
