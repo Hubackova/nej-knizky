@@ -22,10 +22,12 @@ const ScienceFiction = () => {
       awards: [
         "Cena Retro Hugo za nejlepší novelu",
         "Prometheus Award (síň slávy)",
+        "100 nejdůležitějších knih 20. století podle Le Monde (1999)",
+        "100 nejlepších novel dle Times (2005)",
       ],
       likes: [
-        "mrazivá nadčasovost",
-        "silná kniha, o které budete dlouho přemýšlet",
+        "nadčasovost",
+        "mrazivé a depresivní (v tom dobrém slova smyslu)",
       ],
       dislikes: [
         "pro někoho příliš dlouhé monology, úvahy a popisy a málo děje",
@@ -33,6 +35,11 @@ const ScienceFiction = () => {
       ],
       more:
         "Nově (2021) vychází také v podobě grafického románu (ilustrace Matyáš Namai)",
+      quotes: [
+        "Válka je mír. Svoboda je otroctví. Nevědomost je síla.",
+        "Minulost byla vymazána, vymazání bylo zapomenuto, lež se stala pravdou.",
+        "Jestliže svoboda slova vůbec něco znamená, potom je to právo říkat lidem to, co nechtějí slyšet.",
+      ],
     },
 
     {
@@ -64,6 +71,11 @@ const ScienceFiction = () => {
         "může chvíli trvat se začíst, pro někoho příliš rozvleklé až nudné",
         "další díly jsou slabší",
         "scifi na pomezí scifi a fantasy (nemusí být mínus, ale někomu nesedne)",
+      ],
+      quotes: [
+        "Je těžké žít v současnosti, nesmyslné žít v budoucnosti a nemožné žít v minulosti.",
+        "Nesmím se bát. Strach zabíjí myšlení. Strach je malá smrt přinášející naprosté vyhlazení. Budu svému strachu čelit. Dovolím mu, aby prošel kolem mne a skrze mne. A až projde a zmizí, otočím se a podívám se, kudy šel. Tam, kam odešel, nic nezůstane. Zůstanu jen já.",
+        "",
       ],
       buybookCz: "",
       buyebookCz: "",
@@ -102,6 +114,10 @@ const ScienceFiction = () => {
         "odpověď na otázku vesmíru, života a tak vůbec",
       ],
       dislikes: ["humor nemusí sednout každému", "místy chotické"],
+      quotes: [
+        "Ručník je skutečně kolosálně užitečná součást výbavy hvězdného stopaře. Především má značnou praktickou cenu.",
+        "Vogonové mají asi tolik sexepílu jako dopravní nehoda.",
+      ],
       more:
         "V roce 2018 raketa Falcon Heavy vynesla do vesmíru automobil Tesla, ručník a Stopařův průvodce galaxií.",
     },
@@ -125,15 +141,17 @@ const ScienceFiction = () => {
         "Cena Nebula za nejlepší román (1985)",
         "Cena Hugo za nejlepší román (1985)",
         "Cena Philip K. Dicka (1984)",
+        "100 nejlepších novel dle Times (2005)",
+      ],
+      quotes: [
+        "Kyberprostor. Sdílená halucinace každý den pociťovaná miliardami oprávněných operátorů všech národů, dětmi, které se učí základům matematiky… Grafická reprezentace dat abstrahovaných z bank všech počítačů lidského systému.Nedomyslitelná komplexnost. Linie světla seřazené v neprostoru mysli, shluky a souhvězdí dat. Jako světla města, ustupující …",
       ],
       likes: [
         "velmi inovavivní a originální",
         "nadčasová, poměrně přesná vize budoucnosti",
-        "pokud máte rádi Matrix a DeusEx, je to nutnost",
       ],
       dislikes: [
-        "chaotické, těžce stravitelné",
-        "příliš abstraktní",
+        "chaotické, těžce stravitelné, příliš abstraktní",
         "nevyrovnané dávkování děje",
         "specifický jazyk, někomu nesedí ani jeden z českých překladů (lépe hodnocený je Rauvolf)",
       ],
@@ -155,6 +173,10 @@ const ScienceFiction = () => {
       description:
         "Antiutopická vize přetechnizované společnosti, kde vládne kultura masových médií. Zájem o literaturu postupně upadá a knihy jsou posléze oficiálně zakázány a ničeny hasiči vybavenými plamenomety...",
       awards: ["Cena Hugo za nejlepší román (1954)", "Prometheus Award (1984)"],
+      quotes: [
+        "Skoč, křídla roztáhneš cestou.",
+        "Každý po sobě musí něco zanechat, když zemře, říkával dědeček. Dítě nebo knihu nebo obraz nebo dům, musí vystavit zeď nebo vyrobit pár bot. Nebo založit zahradu. Něco, čeho se nějak dotkla jeho ruka, takže když člověk zemře, má jeho duše kam jít, a když se lidé podívají na strom nebo na květinu, kterou zasadil, on je v ní.",
+      ],
       likes: [
         "Bradbury až děsivě přesně předpověděl závislost společnosti na multimédiích",
         "odkazy na jiná díla (Platónovo podobenství o jeskyni)",
@@ -179,6 +201,10 @@ const ScienceFiction = () => {
       ),
       description:
         "Dystopická vize „dokonalé“ společnosti, kde je potlačena indiviualita jedince a lidé jsou geneticky šlechtěni k předem určenému postavení. Civilizace nezná bolest a utrpení, ale ani svobodu a lásku. Filozofické pojednání o štěstí.",
+      awards: ["100 nejdůležitějších knih 20. století podle Le Monde (1999)"],
+      quotes: [
+        "„Ale já nechci pohodlí. Chci Boha, chci poezii, chci skutečné nebezpečí, chci svobodu, chci to, co je dobré, a chci hřích.“ „Zkrátka,“ pravil Mustafa Mond, „požadujete právo být nešťastný.“ „Tak tedy ano,“ pravil divoch vzdorně, „požaduji právo být nešťastný.“",
+      ],
       likes: ["reálná vize budoucnosti", "velké, filosoficky podané myšlenky"],
       dislikes: [
         "děj méně dynamický, může se zdát spíše jako soubor jednotlivých epizod",
@@ -201,13 +227,15 @@ const ScienceFiction = () => {
       ),
       description:
         "Součást knižní série Nadace odehrávající se v daleké budoucnosti, kdy lidé osídlí celou galaxii. Matematickou metodou je předpovězno, že Galakticou říši čeká 30 tisíc let úpadku. Hari Seldon, autor oné metody tak zakladá Nadaci, jejimž cílem má být vytvoření encyklopedie, díky které bude doba úpadku zkrácena. Kniha je rozdělena do pěti částí, kdy každá pojednává o úseku historie nově založeného světa.",
+      quotes: [
+        "Nikdy nedopusťte, aby vám smysl pro morálku zabránil udělat to, co je správné!",
+      ],
       likes: [
         "nadčasovost, aktuálnost",
         "pro fanoušky filozofické, politicko-společenské scifi",
       ],
       dislikes: [
         "pro někoho příliš agresivní střídání časových rovin",
-        "více politologicko filosofické než scifi",
         "málo akční, pro někoho nudné",
       ],
       awards: ["speciální cena Hugo - Best All-Time Series (1966)"],
@@ -231,6 +259,10 @@ const ScienceFiction = () => {
       awards: [
         "cena Ignotus za nejlepší zahraniční román (2015)",
         "Hugo Awards - Andy Weir získal za Marťana cenu John W. Campbella - Nejlepší začínající spisovatel (2016) ",
+      ],
+      quotes: [
+        "Den jsem zahájil nicotným čajem. Nicotný čaj se vaří snadno. Nejdřív ohřejete vodu a pak do ní nepřidáte nic.",
+        "Jako většinu životních problémů lze i tenhle vyřešit s pomocí krabice čisté radiace.",
       ],
       likes: [
         "technické, chemické a fyzikální detaily jsou popsány tak, že jim rozumí každý",
@@ -271,7 +303,7 @@ const ScienceFiction = () => {
     {
       name: "Jatka č.5",
       englishName: "Slaughterhouse-Five",
-      author: "Kurt Junior Vonnegut",
+      author: "Kurt Vonnegut",
       year: 2014,
       img: (
         <StaticImage
@@ -286,16 +318,15 @@ const ScienceFiction = () => {
       likes: [
         "velmi originální zachycení absurdity války",
         "vážné i humorné, absurdní i děsivé",
-        "kultovní 'Tak už to chodí'",
       ],
       dislikes: [
         "pro někoho příliš zmatené",
         "zbytečně dlouhý úvod vysvětlující proč autor knihu napsal",
-        "neustále opakování 'Tak už to chodí'",
       ],
+      quotes: ["Tak už to chodí"],
       awards: [
         "Nominace na nejlepší novelu v cenách Hugo i Nebula (1970), ovšem poražen knihou 'Levá ruka tmy'",
-        "zařazena do žebříčku 100 nejlepších anglicky psaných novel od roku 1923 dle časopisu Time",
+        "100 nejlepších novel dle Times (2005)",
       ],
     },
     /*     {

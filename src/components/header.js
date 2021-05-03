@@ -1,15 +1,69 @@
 import PropTypes from "prop-types";
 import React from "react";
+import Select from "react-select";
 import "./header.scss";
+
+const options = [{ value: "scifi", label: "scifi" }];
+
+const customStyles = {
+  option: (provided, state) => ({
+    ...provided,
+    background: "transparent",
+    "&:hover": {
+      background: "transparent",
+      fontWeight: "bold",
+    },
+    color: "darkred",
+  }),
+  container: (provided) => ({
+    ...provided,
+  }),
+  control: (provided) => ({
+    ...provided,
+    border: "2px solid darkred !important",
+    "&:hover": {
+      border: "2px solid  darkred",
+    },
+    boxShadow: "none",
+    background: "orange",
+  }),
+  placeholder: (provided) => ({
+    ...provided,
+    color: "darkred",
+  }),
+  singleValue: (provided) => ({
+    ...provided,
+    color: "darkred",
+  }),
+  indicatorsContainer: (provided) => ({
+    ...provided,
+    " *": {
+      color: "darkred",
+    },
+  }),
+  indicatorSeparator: (provided) => ({
+    ...provided,
+    backgroundColor: "darkred",
+    " *": {
+      backgroundColor: "darkred",
+    },
+  }),
+};
 
 const Header = ({ siteTitle }) => (
   <div className="header">
     <div className="header-links">
       {/*    <div>O co jde?</div> | <div>Vyber si "kategorii"</div> */}
     </div>
-    <div className="header-title">
+    {/*     <div className="header-title">
       <h1>{siteTitle} (scifi)</h1>
-      <div>...všech dob, dle odborného i "lidového" hodnocení</div>
+    </div> */}
+    <div className="custom-select">
+      <Select
+        styles={customStyles}
+        options={options}
+        placeholder="Zvol si kategorii"
+      />
     </div>
   </div>
 );
